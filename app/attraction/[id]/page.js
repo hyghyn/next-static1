@@ -45,7 +45,7 @@ export async function generateMetadata({ params }) {
       siteName: "Travel App",
       images: [
         {
-          // url: "https://nextjs.org/og.png",
+          url: data.attraction.coverimage,
         },
       ],
     },
